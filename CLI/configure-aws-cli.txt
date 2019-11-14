@@ -1,0 +1,13 @@
+1. AWS access key
+navigate to My Security Credentials > Access keys > Create New Access Key
+Download
+
+2. Configure
+in CMD or Linux terminal - aws configure
+Fill in details
+
+3. Test 
+aws ec2 describe-instances --output table
+#This will show instances in default region (configured in step 2)
+
+AWS CLI can now be used in windows or linux terminal
