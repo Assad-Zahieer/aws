@@ -1,4 +1,4 @@
-1. Install Python 2.6.5 or above
+1. Install Python 3
 # Remember to disable path length limit
 https://www.python.org/downloads/windows/
 
@@ -8,3 +8,5 @@ https://aws.amazon.com/cli/
 3. Add AWS CLI to path
 where aws #to get path
 add path so system variables
+
+Now go to configure-aws.txt
