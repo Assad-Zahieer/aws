@@ -1,4 +1,4 @@
-# aws
+# AWS Infrastructure
 
 ## Components
 1. Availability zones (AZs)
