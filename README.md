@@ -1,6 +1,6 @@
 # aws
 
-##Components
+## Components
 1. Availability zones (AZs)
 2. Region
 3. Edge locations
