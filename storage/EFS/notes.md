@@ -22,10 +22,10 @@
 ## 5.3 Pricing
 * Data consumption per GB-months
   * Calculate GB-hours for a month
-    * e.g 80 GB used in 25 days and 5 GB for rest of the month
+    * e.g. 80 GB used in 25 days and 5 GB for rest of the month
     * (80 * 25 * 24) + (5 * 6 * 24) = Ans
   * Divide by average hours in a month (745.76)
-    * Ans/747.76
+    * Ans/745.76
 
 ## 5.4 Anti-patterns
   * Archiving (use Glacier)
