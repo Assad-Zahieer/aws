@@ -5,7 +5,7 @@
 * Persistant storage
 * Elastically scalable storage
 * Not highly available
- * unlike S3 EBS is not replicated across  multiple AZs
+  * unlike S3 EBS is not replicated across  multiple AZs
 * Seperate to EC2
   * like external hard drive
   * each storage volume attached to 1 instance
@@ -35,7 +35,7 @@
 #### Throughput optimised HDD (ST1)
 * For frequently accessed data
 * ***Throughput = How much data travelling through a channel***
-* ***Bandwidth = Maximum rateof data transfer through a channel***
+* ***Bandwidth = Maximum rate of data transfer through a channel***
 
 ## 4.3 Encryption - Both at rest and in transit
 * Managed by EBS (checkbox)
