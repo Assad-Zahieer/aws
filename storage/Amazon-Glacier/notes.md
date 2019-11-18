@@ -17,13 +17,13 @@
 
 ## 2.3 Data Retrieval - Using API, SDKs
 ### Retrieval job: options
-  1. Expedited: 1-5 mins
-    i. 250 MB archive limit
-    ii. Cost = $0.03 per GB
-  2. Standard: 3-5 hours
-    i. No size limit
-  3. Bulk: cheapest
-    i. 5-12 hours for Petabytes of data
+1. Expedited: 1-5 mins
+ 1. 250 MB archive limit
+ 2. Cost = $0.03 per GB
+2. Standard: 3-5 hours
+ 1. No size limit
+3. Bulk: cheapest
+ 1. 5-12 hours for Petabytes of data
   
 ## 2.4 Security: AES-256 encryption algorythm used to encrypt data
 * IAM - I.D. based policies
