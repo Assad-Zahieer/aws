@@ -19,7 +19,7 @@
   * Intelligent_tiering
   * OneZone_IA
   * RRS reduced redundancy (not reccomended)
-### Use Cases
+### 1.1.1 Use Cases
 #### Frequent access
  * Standard - more cost effective and durable than RRS
 #### Infrequent access - additional charge to retrieve data
@@ -29,12 +29,12 @@
   * Data object moved frequent access -> IA after 30 days (if not used for period)
     
 ## 1.2 Security
-### Bucket Policies: Control access to data in associated bucket
+### 1.2.1 Bucket Policies: Control access to data in associated bucket
   * Specific permissions - who? time period? etc.
   * JSON format
-### Access Control Lists: For users outside aws account (e.g. public access)
+### 1.2.2 Access Control Lists: For users outside aws account (e.g. public access)
   * Broad permissions - list object, write object etc
-### Data Encryption: Server & client side options
+### 1.2.3 Data Encryption: Server & client side options
 #### Server-side: Encryption in S3 
   * SSE-S3 (S3 managed keys)
   * SSE-KMS (kms managed keys)
@@ -45,9 +45,9 @@
   #### SSL supported
   
 ## 1.3 Data Management
-### Versioning: Data recovery
+### 1.3.1 Versioning: Data recovery
   * Not enabled by default, more cost
-### Lifecycle rules: automatic method of data lifecycle management (what happens to data after x time)
+### 1.3.2 Lifecycle rules: automatic method of data lifecycle management (what happens to data after x time)
   * Set criteria e.g. after 30 days:
     * Archieve data (amazon glacier)
     * Delete data
