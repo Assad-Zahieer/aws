@@ -25,7 +25,7 @@
 3. Bulk: cheapest
     1. 5-12 hours for Petabytes of data
   
-## 2.4 Security: AES-256 encryption algorythm used to encrypt data
+## 2.4 Security: AES-256 (advanced encryption standard) algorythm used to encrypt data
 * IAM - I.D. based policies
 * Vault access policies: resourse based (similar to bucket policies)
   * each vault only has one
