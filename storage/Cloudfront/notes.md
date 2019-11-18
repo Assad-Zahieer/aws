@@ -22,7 +22,7 @@
 ## 6.3 Configuration
 * Specify origin & edge locations
 
-## 6.3 Pricing
+## 6.4 Pricing
 * Based on HTTP requests & data transfer
 * Additional costs e.g field level encryption
 
