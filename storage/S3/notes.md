@@ -20,13 +20,13 @@
   * OneZone_IA
   * RRS reduced redundancy (not reccomended)
 ### Use Cases
-  #### Frequent access
-    * Standard - more cost effective and durable than RRS
-  #### Infrequent access - additional charge to retrieve data
-    * Standard_IA & OneZone_IA
-      * OneZone_IA = lower availability
-  #### Intelligent tiering: for unpredictable access patterns
-    * Data object moved frequent access -> IA after 30 days (if not used for period)
+#### Frequent access
+ * Standard - more cost effective and durable than RRS
+#### Infrequent access - additional charge to retrieve data
+  * Standard_IA & OneZone_IA
+    * OneZone_IA = lower availability
+#### Intelligent tiering: for unpredictable access patterns
+  * Data object moved frequent access -> IA after 30 days (if not used for period)
     
 ## 1.2 Security
 ### Bucket Policies: Control access to data in associated bucket
@@ -35,13 +35,13 @@
 ### Access Control Lists: For users outside aws account (e.g. public access)
   * Broad permissions - list object, write object etc
 ### Data Encryption: Server & client side options
-  #### Server-side: Encryption in S3 
-    * SSE-S3 (S3 managed keys)
-    * SSE-KMS (kms managed keys)
-    * SSE-C (custimer managed keys)
-  #### Client-side: Encryption prior to upload
-    * CSE-KMS
-    * CSE-C
+#### Server-side: Encryption in S3 
+  * SSE-S3 (S3 managed keys)
+  * SSE-KMS (kms managed keys)
+  * SSE-C (custimer managed keys)
+#### Client-side: Encryption prior to upload
+  * CSE-KMS
+  * CSE-C
   #### SSL supported
   
 ## 1.3 Data Management
