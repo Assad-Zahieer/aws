@@ -47,10 +47,10 @@ Full text: https://docs.aws.amazon.com/vpc/latest/userguide/vpc-subnets-commands
 * MyKeyPair.pem = downloaded key file
 
 # 5. Delete all
-**aws ec2 delete-security-group --group-id sg-e1fb8c9a**
-**aws ec2 delete-subnet --subnet-id subnet-b46032ec**
-**aws ec2 delete-subnet --subnet-id subnet-a46032fc**
-**aws ec2 delete-route-table --route-table-id rtb-c1c8faa6**
-**aws ec2 detach-internet-gateway --internet-gateway-id igw-1ff7a07b --vpc-id vpc-2f09a348**
-**aws ec2 delete-internet-gateway --internet-gateway-id igw-1ff7a07b**
-**aws ec2 delete-vpc --vpc-id vpc-2f09a348**
+- **aws ec2 delete-security-group --group-id sg-e1fb8c9a**
+- **aws ec2 delete-subnet --subnet-id subnet-b46032ec**
+- **aws ec2 delete-subnet --subnet-id subnet-a46032fc**
+- **aws ec2 delete-route-table --route-table-id rtb-c1c8faa6**
+- **aws ec2 detach-internet-gateway --internet-gateway-id igw-1ff7a07b --vpc-id vpc-2f09a348**
+- **aws ec2 delete-internet-gateway --internet-gateway-id igw-1ff7a07b**
+- **aws ec2 delete-vpc --vpc-id vpc-2f09a348**
