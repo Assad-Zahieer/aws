@@ -22,7 +22,7 @@ Full text: https://docs.aws.amazon.com/vpc/latest/userguide/vpc-subnets-commands
 * gateway-id from 3.1
 ## 3.3 Create custom route table
 **aws ec2 create-route-table --vpc-id vpc-2f09a348**
-##3.4 Create a route in the route table that points all traffic (0.0.0.0/0) to the Internet gateway.
+## 3.4 Create a route in the route table that points all traffic (0.0.0.0/0) to the Internet gateway.
 **aws ec2 create-route --route-table-id rtb-c1c8faa6 --destination-cidr-block 0.0.0.0/0 --gateway-id igw-1ff7a07b**
 * route table id from 3.3
 ## 3.5 Associate route table with a subnet
