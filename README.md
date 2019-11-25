@@ -6,7 +6,7 @@
 3. Edge locations
 4. Regional edge caches
 
-## 1.1 Availability zones: physicak aws data centers (a, b, c)
+## 1.1 Availability zones: physical aws data centers (a, b, c)
 * Contain resources we provision in our VPCs
 * Use atleast two for **high availability**
 ## 1.2 Region: AZs linked together - low latency resilient connections
