@@ -1,6 +1,6 @@
 # Compute in AWS
 
-## What?
+### What?
 * Brains & processing power required by apps to carry out tasks
   * CPU, RAM, Disks etc.
   * Compute resource = physical server used to create VMs
